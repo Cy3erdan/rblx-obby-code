@@ -1,8 +1,8 @@
-local LocalDoor = game.ReplicatedStorage.DLSFridge
-local clone = LocalDoor:Clone()
+local LocalDoor = game.ReplicatedStorage.DLSFridge -- where our local model is stored
+local clone = LocalDoor:Clone() -- creating a clone of our model
 local Fridge = clone.DLSFridge.Fridge
 local FridgeF = clone.DLSFridge.FridgeFinal
-clone.Parent = game.Workspace
+clone.Parent = game.Workspace -- where to clone our model
 
 local TweenService = game:GetService("TweenService") -- smooth animation
 
